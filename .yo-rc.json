@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "ar-ly"
+    ],
+    "messageBroker": "kafka",
+    "nativeLanguage": "en",
+    "packageName": "com.dirac.demo.notification",
+    "packageFolder": "com/dirac/demo/notification",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "serviceDiscoveryType": "eureka",
+    "skipClient": true,
+    "testFrameworks": [],
+    "websocket": false,
+    "baseName": "notification",
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "buildTool": "maven",
+    "serverPort": "8083",
+    "jhipsterVersion": "6.3.0",
+    "skipUserManagement": true,
+    "clientPackageManager": "npm",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Notification"
+  ]
+}
